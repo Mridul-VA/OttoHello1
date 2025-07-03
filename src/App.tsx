@@ -1,5 +1,5 @@
 /*  src/App.tsx  */
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 import WelcomeScreen       from './components/WelcomeScreen';
 import CheckInForm         from './components/CheckInForm';
