@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { CheckCircle, Home, Sparkles, Clock, Shield, Zap } from 'lucide-react';
 
 /* ─── props ───────────────────────────────────────────────────── */
@@ -14,7 +14,7 @@ export default function ConfirmationScreen({
   visitor,
   onReturn,
 }: ConfirmationScreenProps) {
-  const { fullName } = visitor;
+  // const { fullName } = visitor;
   const [countdown, setCountdown] = useState(5);
 
   useEffect(() => {
@@ -32,7 +32,7 @@ export default function ConfirmationScreen({
 
   const isCheckIn = type === 'checkin';
   const isLateCheckIn = type === 'late-checkin';
-  const isCheckOut = type === 'checkout';
+  // const isCheckOut = type === 'checkout';
 
   const getGradientColors = () => {
     if (isCheckIn) return 'from-slate-900 via-blue-900 to-slate-900';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { UserCheck, UserX, Zap, Clock } from 'lucide-react';
 
 interface WelcomeScreenProps {
